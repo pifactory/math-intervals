@@ -1,0 +1,39 @@
+{
+  "name": "math-intervals",
+  "version": "1.0.0",
+  "description": "Operations with intervals of real numbers, including intersections, joins, disjoint sets etc",
+  "repository": "pifactory/math-intevals",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "node node_modules/typescript/bin/tsc",
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/__tests__/.*-test\\.ts$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "testResultsProcessor": "<rootDir>/node_modules/ts-jest/coverageprocessor.js"
+  },
+  "keywords": [
+    "mathematics",
+    "interval",
+    "math"
+  ],
+  "author": {
+    "name": "Alexander Dvorkovyy",
+    "url": "https://github.com/advorkovyy"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^19.2.2",
+    "jest": "^19.0.2",
+    "ts-jest": "^19.0.1",
+    "typescript": "^2.2.1"
+  }
+}
