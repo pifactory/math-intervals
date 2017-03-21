@@ -1,11 +1,11 @@
 {
   "name": "math-intervals",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Operations with intervals of real numbers, including intersections, joins, disjoint sets etc",
-  "repository": "pifactory/math-intevals",
+  "repository": "pifactory/math-intervals",
   "main": "index.js",
   "scripts": {
-    "prepublish": "node node_modules/typescript/bin/tsc",
+    "build": "node node_modules/typescript/bin/tsc",
     "test": "jest"
   },
   "jest": {
